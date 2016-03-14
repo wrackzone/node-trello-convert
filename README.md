@@ -8,7 +8,7 @@ This utility will convert an exported Trello json file into a csv file that can 
 1. Requires a node.js runtime. You can install node from [here](https://nodejs.org/en/)
 
 2. After cloning this repository run 
-'''
+'''javascript
 npm install
 '''
 
