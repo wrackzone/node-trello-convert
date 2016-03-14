@@ -34,3 +34,18 @@ eg.
 ```javascript
 node index.js my-file.json my-file.csv
 ```
+
+## Output
+
+The following columns are exported to the csv file 
+
+| Column Name | Description | Agile Central Mapping |
+| ----------- | :---------: | --------------------- |
+| list | The trello column name | This column is not mapped to Agile Central |
+| name | Card Title | Story name |
+| description | Card description | Story description |
+| schedulestate | Empty, and must be manually completed | Schedule State |
+| owner | Email address of card owner | Story owner, must be a valid Agile Central user |
+| tags  | A comma delimited list of labels. Note tags are not automatically imported | None | 
+| color | Currently empty | None |
+| notes | Currently combines a link to the orginal Trello card, a list of label names and a list of links to card attachments | Notes |
