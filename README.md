@@ -40,7 +40,7 @@ node index.js my-file.json my-file.csv
 The following columns are exported to the csv file 
 
 | Column Name | Description | Agile Central Mapping |
-| ----------- | :---------: | --------------------- |
+| ----------- | ----------- | --------------------- |
 | list | The trello column name | This column is not mapped to Agile Central |
 | name | Card Title | Story name |
 | description | Card description | Story description |
