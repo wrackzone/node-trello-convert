@@ -12,6 +12,25 @@ This utility will convert an exported Trello json file into a csv file that can 
 npm install
 ```
 
+## Configuration
+
+1. Edit the config.json file
+
+	Specify the workspace name & api-key values
+
 
 ## Running
 
+1. Export your trello board as a json file.
+
+[Exporting data from Trello](http://help.trello.com/article/747-exporting-data-from-trello-1)
+
+2. Run the utility using the following syntax 
+
+```javascript
+node index.js <input.json> <output.csv>
+```
+eg.
+```javascript
+node index.js my-file.json my-file.csv
+```
